@@ -1,3 +1,5 @@
+#Python Guessing Game
+
 import random
 
 print("Hello, what is your favorite number?")
@@ -19,7 +21,7 @@ while not found:
     guess = int(input()) 
     if guess == magicNumber:
         found = True
-        print("***")
+        print("****")
     if guess < magicNumber:
         print("Too low")
     if guess > magicNumber:
